@@ -1,6 +1,6 @@
 # A script to give clothing advice based on the weather
 
-weather = str(input("What's the weather like today (Sunny/Rainy/Cold):")).lower()
+weather = input("What's the weather like today (Sunny/Rainy/Cold):").lower()
 
 if weather == "sunny":
     print("Wear a T-shirt and sun glasses")
