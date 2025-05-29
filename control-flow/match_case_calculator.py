@@ -1,7 +1,7 @@
 # A script that uses match case to perfom simple arithmetic operations between 2 numbers
 num1 = int(input("Enter the first number:"))
 num2 = int(input("Enter the second number:"))
-operation = input("Enter an operation ( +, -, *, /):")
+operation = input("Choose the operation operation ( +, -, *, /):")
 
 match operation:
     case "+":
