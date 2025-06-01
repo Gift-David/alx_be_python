@@ -1,8 +1,8 @@
 # A script that remind users about a single, priority task for the day based on time sensitivity
 
-task = input("Enter your task:").lower()
-time_bound = input("Is it time-bound? (yes/no):").lower()
-priority = input("Priority (high/medium/low):").lower()
+task = input("Enter your task:")
+time_bound = input("Is it time-bound? (yes/no):")
+priority = input("Priority (high/medium/low):")
 
 
 match priority:
