@@ -11,7 +11,7 @@ def convert_to_fahrenheit(celsius):
 
 def main():
     temperature = float(input("Enter the temperature to convert: "))
-    unit = str(input("Is this temperature in Celsius of Fahrenheit? (C/F):")).strip().lower()
+    unit = str(input("Is this temperature in Celsius or Fahrenheit? (C/F):")).strip().lower()
 
     if unit == "c":
         new_temperature = convert_to_fahrenheit(temperature)
