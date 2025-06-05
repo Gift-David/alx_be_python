@@ -20,6 +20,6 @@ def main():
         new_temperature = convert_to_celsius(temperature)
         print(f"{temperature}°F is {new_temperature}°C")
     else:
-        print("Invalid unit")
+        print("Invalid temperature. Please enter a numeric value.")
 
 main()
