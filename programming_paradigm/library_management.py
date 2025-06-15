@@ -1,0 +1,31 @@
+# 
+
+class Book:
+    def __init__(self, title, author, is_checked_out):
+        self.title = title
+        self.author = author
+        self._is_checked_out = is_checked_out
+
+    def book(self):
+        new_book = f"{self.title}, {self.author}"
+        return new_book
+
+class Library(Book):
+    def __init__(self, title, author):
+        super().__init__(title, author)
+        self.books = []
+
+    def add_book(self):
+        book = {"title": self.title,"author": self.author}
+        self.books.append(book)
+    
+    def check_out_book(self):
+        book = self.books.get("title")
+        if self.title == book.title:
+            return f"{(self.title).title()} is {self.author}"
+
+    def return_book():
+        pass
+
+    def list_avaialable_books():
+        pass
