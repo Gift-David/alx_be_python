@@ -2,13 +2,17 @@
 
 class Book:
     def __init__(self):
-        self.title = title
-        self.author = author
-        self._is_checked_out = is_checked_out
+        pass
+        # self.title = title
+        # self.author = author
+        # self._is_checked_out = is_checked_out
 
-    def book(self):
-        new_book = f"{self.title}, {self.author}"
-        return new_book
+    # def book(self):
+    #     new_book = f"{self.title}, {self.author}"
+    #     return new_book
+
+    def return_book(self):
+        return True
 
 class Library(Book):
     def __init__(self, title, author):
