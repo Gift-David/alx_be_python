@@ -28,8 +28,8 @@ class Library(Book):
         if self.title == book.title:
             return f"{(self.title).title()} is {self.author}"
 
-    def return_book():
+    def return_book(self):
         pass
 
-    def list_avaialable_books():
+    def list_avaialable_books(self):
         pass
