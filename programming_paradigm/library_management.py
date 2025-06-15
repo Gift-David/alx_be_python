@@ -17,14 +17,14 @@ class Book:
 class Library(Book):
     def __init__(self, title, author):
         super().__init__(title, author)
-        self.books = []
+        self._books = []
 
     def add_book(self):
         book = {"title": self.title,"author": self.author}
-        self.books.append(book)
+        self._books.append(book)
     
     def check_out_book(self):
-        book = self.books.get("title")
+        book = self._books.get("title")
         if self.title == book.title:
             return f"{(self.title).title()} is {self.author}"
 
