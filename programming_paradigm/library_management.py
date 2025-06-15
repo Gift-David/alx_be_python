@@ -31,5 +31,5 @@ class Library(Book):
     def return_book(self):
         pass
 
-    def list_avaialable_books(self):
+    def list_available_books(self):
         pass
